@@ -270,7 +270,7 @@ img{
   margin-bottom: 8px;
 }
 
-.team-icons-wrapper ul{
+.team-icons-wrapper {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -362,7 +362,7 @@ img{
 
 .footer-wrapper{
  display: flex;
- align-items: baseline;
+ align-items: flex-start;
 
 }
 
@@ -371,7 +371,7 @@ img{
   max-width: 264px;
 }
 
-.socials{
+.footer-text.socials{
   color: #FFFFFF;
   font-weight: 500;
   font-size: 16px;
@@ -382,12 +382,20 @@ img{
 
 .footer-logo-wrapper{
   margin-right: 120px;
+  gap: 16px;
+}
+
+.footer-socials-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-icons-wrapper {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   justify-content: center;
+  align-items: center;
 }
 
 .footer-icon {
